@@ -11,7 +11,31 @@
 
 /*css general*/
 body {
-  background-color: #bebebe;
+  background-color: #f3f1f1;
+}
+
+.listaBotonIndex {
+  columns: 2;
+  -webkit-columns: 2s;
+  -moz-columns: 2;
+}
+
+#botonIndex {
+  background-color: #D50000;
+  width: 120px;
+}
+
+#botonIndex a {
+  color: white;
+  text-decoration: none;
+}
+
+#botonIndex:hover {
+  background-color: white;
+}
+
+#botonIndex a:hover {
+  color: #D50000;
 }
 
 /*css desayuno, almuerzo y merienda*/
