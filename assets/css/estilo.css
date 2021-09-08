@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); /*font-family: 'Kaushan Script', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap'); /*font-family: 'Merriweather Sans', sans-serif;*/
+*{margin:0; padding:0; box-sizing: border-box;}
+
+/*css general*/
+body {
+    background-color: honeydew;
+}
+
+/*css desayuno, almuerzo y merienda*/
+h1 {
+    margin-top:60px;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:70px;
+}
+ul {
+    list-style:none;
+}
+li {
+    padding:15px;
+}
+h4 {
+    font-family: 'Kaushan Script', cursive;
+}
+span {
+    margin-left:130px;
+}
+.featurette-heading {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/*css contacto*/
+.box {
+    background-color: gainsboro;
+    width: fit-content;
+    height: fit-content;
+    padding:30px;
+}
+.control {
+    width: 300px;
+    margin:15px;
+    padding: 10px;
+}
+.normasCovid {
+    margin:20px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.listaCovid {
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.checkbox {
+    margin:20px;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.boton {
+    width: 300px;
+    margin:15px;
+    padding: 10px;
+}
+

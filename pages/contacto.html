@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--SEO-->
+    <title>Café de Paris</title>
+    <meta name="description" content="Hoja de reserva para elCafé de Paris.">
+    <meta name="keywords" content="francia, paris, reserva, restaurante, bar, cafe, comida francesa.">
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/dist/css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+    <!--css propio-->
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+</head>
+<body> 
+    <!--nav y logo-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: gainsboro;">
+            <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" alt="logo" width="30" height="30"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="desayuno.html">Desayuno</a>
+              <a class="nav-link" href="almuerzo.html">Almuerzo</a>
+              <a class="nav-link" href="meriendas.html">Merienda</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </div>
+            </div>
+        </nav>
+    </header><br>
+
+    <!--contenido-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Reservas</h1>
+                </div>
+            </div>
+        </div>
+
+            <hr class="featurette-divider">
+        
+        <form class="container box animate__animated animate__swing">
+            
+                <div class="row">
+                        <div class="col-md-6">
+                            <input type="date" name="fecha" class="control"><br>
+                            <input type="text" class="control" placeholder="A nombre de"><br>
+                            <input type="number" class="control" placeholder="Cantidad de comensales"><br>
+                            <input type="number" class="control" placeholder="Número de telefono"><br>
+                            <input type="text" class="control" placeholder="Solo falta tu email"><br>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea cols="30" name="comentario" rows="10" class="control" placeholder="¿Algo que debamos saber para mejorar la atención?"></textarea><br/>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="normasCovid">Normas de prevensión COVID</h3>
+                            <ul class="lead listaCovid">
+                                <li>Mantener el barbijo a la hora de ser atendido por lxs empleadxs.</li>
+                                <li>No romper su la burbuja.</li>
+                                <li>Mantener la higiene de las manos colocando alcohol en gel.</li>
+                                <li>En caso de tener síntomas, no presentarse.</li>
+                            </ul>
+                            <div class="checkbox">
+                                <input type="checkbox" name="acepta" value="1"> Me comprometo a respetar las normas establecidas
+                            </div>
+                            <div>
+                                <input type="submit" value="ENVIAR" class="boton">
+                                <input type="reset" value="LIMPIAR" class="boton">
+                            </div>
+                        </div>
+                </div>
+        </forms>
+    </section>
+  
+    <hr class="featurette-divider">
+    <!--footer-->
+    <footer class="container text-center">
+        <p><img src="../assets/img/correo.png" width=20px class="imgFooter"> bossarelli.anabella@gmail.com &middot; <a href="#">Twitter</a> &middot; <a href="#">Instagram</a></p>
+    </footer>
+    
+    <script src="js/wow.min.js"></script> <script> new WOW().init(); </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
