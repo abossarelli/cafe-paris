@@ -66,4 +66,57 @@ p {
 ul {
   list-style: none;
 }
+
+.box {
+  background-color: gainsboro;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 30px;
+}
+
+.control {
+  font-family: "Bad Script", cursive;
+  width: 300px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.normasCovid {
+  margin: 20px;
+  text-align: center;
+  font-family: "Bad Script", cursive;
+}
+
+.listaCovid {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+}
+
+.listaCovid li {
+  padding: 10px;
+}
+
+.checkbox {
+  margin: 20px;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+}
+
+.boton {
+  width: 300px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.boton:hover {
+  background-color: #D50000;
+  color: white;
+  border: #D50000;
+  width: 350px;
+  height: 80px;
+}
 /*# sourceMappingURL=style.css.map */
