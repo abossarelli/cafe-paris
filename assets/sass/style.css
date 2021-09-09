@@ -45,7 +45,7 @@ h1 {
   font-family: "Homemade Apple", cursive;
 }
 
-h2 {
+.tituloComidas {
   margin: 15px;
   font-family: "Lora", serif;
   text-transform: uppercase;
