@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap");
-/*font-family: 'Merriweather Sans', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap");
-/*font-family: 'Merriweather Sans', sans-serif;*/
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-/*font-family: 'Kaushan Script', cursive;*/
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap");
-/*font-family: 'Merriweather Sans', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -44,5 +38,27 @@ body {
 
 #botonIndex a:hover {
   color: #D50000;
+}
+
+h1 {
+  margin-top: 70px;
+  font-family: "Homemade Apple", cursive;
+}
+
+h2 {
+  margin: 15px;
+  font-family: "Lora", serif;
+}
+
+h4 {
+  font-family: "Bad Script", cursive;
+}
+
+span {
+  margin-left: 150px;
+}
+
+p {
+  font-family: "Lora", serif;
 }
 /*# sourceMappingURL=style.css.map */

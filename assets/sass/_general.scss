@@ -1,7 +1,5 @@
 @import "colores";
 @import "fuentes";
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); /*font-family: 'Kaushan Script', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap'); /*font-family: 'Merriweather Sans', sans-serif;*/
 *{margin:0; padding:0; box-sizing: border-box;}
 
 /*css general*/
@@ -31,3 +29,21 @@ body {
     color:$rojo;
 }
 
+// desayuno 
+h1 {
+    margin-top: 70px;
+    font-family: $cursiva;
+}
+h2 {
+    margin:15px;
+    font-family: $loraFont;
+}
+h4 {
+    font-family: $itemFont;
+}
+span {
+   margin-left: 150px; 
+}
+p {
+    font-family: $loraFont;
+}
