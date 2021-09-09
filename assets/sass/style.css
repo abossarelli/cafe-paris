@@ -16,6 +16,10 @@ body {
   background-color: #f3f1f1;
 }
 
+.tituloIndex {
+  font-family: "Homemade Apple", cursive;
+}
+
 .listaBotonIndex {
   columns: 2;
   -webkit-columns: 2s;
@@ -25,6 +29,7 @@ body {
 #botonIndex {
   background-color: #D50000;
   width: 120px;
+  margin: 10px;
 }
 
 #botonIndex a {
