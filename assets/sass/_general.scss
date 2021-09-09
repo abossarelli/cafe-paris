@@ -29,7 +29,7 @@ body {
     color:$rojo;
 }
 
-// desayuno 
+// desayuno almmuerzo y merienda
 h1 {
     margin-top: 70px;
     font-family: $cursiva;
@@ -37,6 +37,7 @@ h1 {
 h2 {
     margin:15px;
     font-family: $loraFont;
+    text-transform: uppercase;
 }
 h4 {
     font-family: $itemFont;
@@ -46,4 +47,7 @@ span {
 }
 p {
     font-family: $loraFont;
+}
+ul {
+    list-style: none;
 }

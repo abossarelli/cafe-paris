@@ -48,6 +48,7 @@ h1 {
 h2 {
   margin: 15px;
   font-family: "Lora", serif;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -60,5 +61,9 @@ span {
 
 p {
   font-family: "Lora", serif;
+}
+
+ul {
+  list-style: none;
 }
 /*# sourceMappingURL=style.css.map */
