@@ -28,7 +28,6 @@
       }
     </style>
 
-    <link rel="stylesheet" href="../style.css">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!--animaciones-->
@@ -39,8 +38,23 @@
 </head>
 <body> 
     <!--nav y logo-->
-
-      
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: gainsboro;">
+          <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.png" alt="logo" width="30" height="30"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="desayuno.html">Desayuno</a>
+              <a class="nav-link" href="almuerzo.html">Almuerzo</a>
+              <a class="nav-link" href="meriendas.html">Merienda</a>
+              <a class="nav-link" href="contacto.html">Reservas</a>
+            </div>
+            </div>
+        </nav>
+    </header><br>
 
     <!--contenido-->
     <section>
@@ -53,43 +67,39 @@
           </div>
         </div>
       </div>   
+       <div class="container">
+           <div class="row">
+                 <div class="col-md-4">
+                    <img src="../assets/img/desayuno/tosadas.jpg" alt="" width="300" height="500">
+                </div>
+                <div class="col-md-4">
+                    <img src="../assets/img/desayuno/croissant.jpg" alt="" width="300" height="500">
+                 </div>
+                <div class="col-md-4">
+                    <img src="../assets/img/desayuno/tostadas2.jpg" alt="" width="300" height="500">
+                </div>
+           </div>
+           <div class="row">
+                <div class="col-md-6">
+                    <img src="../assets/img/desayuno/cafeFrio.jpg" alt="" width="500" height="700">
+               </div>
+                <div class="col-md-6">
+                    <img src="../assets/img/meriendas/milkshake.jpg" alt="" width="500" height="700">
+                </div>
+           </div>
+           <div class="row">
+            <div class="col-md-4">
+                <img src="../assets/img/meriendas/panqueques.jpg" alt="" width="300" height="500">
+             </div>
+              <div class="col-md-4">
+                 <img src="../assets/img/meriendas/applePie.jpg" alt="" width="300" height="500">
+             </div>
+             <div class="col-md-4">
+                 <img src="../assets/img/desayuno/frutas.jpg" alt="" width="300" height="500">
+             </div>
+           </div>
+       </div>
        
-      <div class="container" id="galeria">
-        <div class="grid">
-            <div class="column-xs-12 column-md-4">
-              <figure class="img-container">
-                <img src="https://source.unsplash.com/8b1cWDyvT7Y" class="imgGrid"/>
-              </figure>
-            </div>
-            <div class="column-xs-12 column-md-4">
-              <figure class="img-container">
-                <img src="https://source.unsplash.com/5VXH4RG88gc" class="imgGrid"/>
-              </figure>
-            </div>
-            <div class="column-xs-12 column-md-4">
-              <figure class="img-container">
-                <img src="https://source.unsplash.com/XtUd5SiX464" class="imgGrid"/>
-              </figure>
-            </div>
-            <div class="column-xs-12 column-md-6">
-              <figure class="img-container">
-                <img src="https://source.unsplash.com/JYGnB9gTCls"class="imgGrid" />
-              </figure>
-            </div>
-            <div class="column-xs-12 column-md-6">
-              <figure class="img-container">
-                <img src="https://source.unsplash.com/-RBuQ2PK_L8" class="imgGrid" />
-              </figure>
-            </div>
-            <div class="column-xs-12">
-              <figure class="img-container">
-                <img src="https://source.unsplash.com/P44RIGl9V54" class="imgGrid"/>
-              </figure>
-            </div>
-          </div>
-
-      </div>
-      
     
     <!--footer-->
     <footer class="container text-center">
