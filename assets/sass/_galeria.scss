@@ -20,3 +20,37 @@
     .img8 {grid-area: img8;}
     .img9 {grid-area: img9;}
 }
+@media only screen and (max-width: 1023px) {
+    .grid {
+        display:grid;
+        grid-template-areas: 
+         "img1"
+         "img2" 
+         "img3"
+         "img4"
+         "img5"
+         "img9"
+         "img6"
+         "img7"
+         "img8";
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        justify-items: center;
+    }
+    .img1 {grid-area: img1;}
+    .img2 {grid-area: img2;}
+    .img3 {grid-area: img3;}
+    .img4 {grid-area: img4;}
+    .img5 {grid-area: img5;}
+    .img6 {grid-area: img6;}
+    .img7 {grid-area: img7;}
+    .img8 {grid-area: img8;}
+    .img9 {grid-area: img9;}
+}
+
+#galeria:hover {
+    transform: scale(1.2,1.2);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
