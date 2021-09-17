@@ -1,5 +1,7 @@
-@import "colores";
 @import "fuentes";
+
+$rojo: #D50000;
+
 *{margin:0; padding:0; box-sizing: border-box;}
 
 /*css general*/
@@ -45,9 +47,6 @@ body {
 }
 h4 {
     font-family: $itemFont;
-}
-span {
-   margin-left: 150px; 
 }
 p {
     font-family: $loraFont;
