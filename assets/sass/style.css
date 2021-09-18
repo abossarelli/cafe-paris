@@ -74,7 +74,7 @@ footer a:hover {
 @media only screen and (min-width: 1024px) {
   .baseline {
     position: relative;
-    top: 100px;
+    top: 150px;
   }
 }
 
@@ -84,11 +84,15 @@ footer a:hover {
   color: #141212;
 }
 
-.tituloComidas {
+.titulo__seccion {
   margin: 15px;
   font-family: "Lora", serif;
   text-transform: uppercase;
-  color: #D50000;
+  color: #141212;
+}
+
+.titulo__seccion--comidas {
+  font-weight: 800;
 }
 
 h4 {

@@ -3,13 +3,17 @@
     margin-top: 70px;
     font-family: $cursiva;
     color:$negro;
+    &__seccion {
+        margin:15px;
+        font-family: $loraFont;
+        text-transform: uppercase;
+        color:$negro;
+        &--comidas {
+            font-weight: 800;
+        }
+    }
 }
-.tituloComidas {
-    margin:15px;
-    font-family: $loraFont;
-    text-transform: uppercase;
-    color:$rojo;
-}
+
 h4 {
     font-family: $itemFont;
     font-size: 25px;
