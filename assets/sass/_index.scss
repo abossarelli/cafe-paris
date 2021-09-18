@@ -1,0 +1,26 @@
+/*index*/
+.tituloIndex {
+    font-family: $cursiva;
+}
+.listaBotonIndex {
+    columns: 2;
+    -webkit-columns: 2s;
+    -moz-columns: 2;    
+
+}
+#botonIndex {
+    background-color: $rojo;
+    width: 120px;
+    margin: 10px;
+}
+#botonIndex a {
+    color: $blanco;
+    text-decoration: none;
+}
+#botonIndex:hover {
+    background-color: $blanco;
+
+} 
+#botonIndex a:hover {
+    color:$rojo;
+}

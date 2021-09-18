@@ -1,16 +1,4 @@
-$negro:rgb(20, 18, 18);
-$box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-$gris:gainsboro;
-.margin {
-    margin:20px;
-}
-.margin_top {
-    margin-top: 50px;
-}
-.centro {
-    display: block;
-    margin: auto;
-}
+/*recetas*/
 .boxA {
     background-color: $gris;
     width: 500px;
@@ -44,7 +32,7 @@ $gris:gainsboro;
             font-family: $chefText;
             font-size:20px;
             width: 320px;
-            height: 200px;
+            height: 180px;
         }
     }
 }

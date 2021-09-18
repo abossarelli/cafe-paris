@@ -3,11 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+/*css general*/
 * {
   margin: 0;
   padding: 0;
@@ -15,11 +11,47 @@
           box-sizing: border-box;
 }
 
-/*css general*/
 body {
   background-color: #f3f1f1;
 }
 
+.margin {
+  margin: 20px;
+}
+
+.margin_top {
+  margin-top: 50px;
+}
+
+.centro {
+  display: block;
+  margin: auto;
+}
+
+.titulo {
+  margin-top: 70px;
+  font-family: "Homemade Apple", cursive;
+}
+
+.tituloComidas {
+  margin: 15px;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Bad Script", cursive;
+}
+
+p {
+  font-family: "Lora", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/*index*/
 .tituloIndex {
   font-family: "Homemade Apple", cursive;
 }
@@ -49,99 +81,7 @@ body {
   color: #D50000;
 }
 
-.titulo {
-  margin-top: 70px;
-  font-family: "Homemade Apple", cursive;
-}
-
-.tituloComidas {
-  margin: 15px;
-  font-family: "Lora", serif;
-  text-transform: uppercase;
-}
-
-h4 {
-  font-family: "Bad Script", cursive;
-}
-
-p {
-  font-family: "Lora", serif;
-}
-
-ul {
-  list-style: none;
-}
-
-.box {
-  background-color: gainsboro;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 30px;
-}
-
-.tituloReservas {
-  font-family: "Homemade Apple", cursive;
-}
-
-.control {
-  font-family: "Bad Script", cursive;
-  width: 300px;
-  margin: 15px;
-  padding: 10px;
-}
-
-.normasCovid {
-  margin: 20px;
-  text-align: center;
-  font-family: "Bad Script", cursive;
-}
-
-.listaCovid {
-  text-transform: uppercase;
-  font-family: "Lora", serif;
-}
-
-.listaCovid li {
-  padding: 10px;
-}
-
-.checkbox {
-  margin: 20px;
-  text-transform: uppercase;
-  font-family: "Lora", serif;
-}
-
-.boton {
-  width: 300px;
-  margin: 15px;
-  padding: 10px;
-}
-
-.boton:hover {
-  background-color: #D50000;
-  color: white;
-  border: #D50000;
-  width: 350px;
-  height: 50px;
-}
-
-.margin {
-  margin: 20px;
-}
-
-.margin_top {
-  margin-top: 50px;
-}
-
-.centro {
-  display: block;
-  margin: auto;
-}
-
+/*recetas*/
 .boxA {
   background-color: gainsboro;
   width: 500px;
@@ -186,9 +126,10 @@ ul {
   font-family: "Cardo", serif;
   font-size: 20px;
   width: 320px;
-  height: 200px;
+  height: 180px;
 }
 
+/*galeria*/
 #galeria:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
@@ -313,5 +254,63 @@ ul {
     -ms-grid-column: 1;
     grid-area: img9;
   }
+}
+
+/*contacto*/
+.box {
+  background-color: gainsboro;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 30px;
+}
+
+.tituloReservas {
+  font-family: "Homemade Apple", cursive;
+}
+
+.control {
+  font-family: "Bad Script", cursive;
+  width: 300px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.normasCovid {
+  margin: 20px;
+  text-align: center;
+  font-family: "Bad Script", cursive;
+}
+
+.listaCovid {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+}
+
+.listaCovid li {
+  padding: 10px;
+}
+
+.checkbox {
+  margin: 20px;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+}
+
+.boton {
+  width: 300px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.boton:hover {
+  background-color: #D50000;
+  color: white;
+  border: #D50000;
+  width: 350px;
+  height: 50px;
 }
 /*# sourceMappingURL=style.css.map */

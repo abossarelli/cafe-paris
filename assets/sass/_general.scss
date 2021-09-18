@@ -1,41 +1,20 @@
-@import "fuentes";
-
-$rojo: #D50000;
-
-*{margin:0; padding:0; box-sizing: border-box;}
-
 /*css general*/
+*{margin:0; padding:0; box-sizing: border-box;}
 body {
-    background-color: rgb(243, 241, 241);
+    background-color: $fondo;
 }
-// index
-.tituloIndex {
-    font-family: $cursiva;
+.margin {
+    margin:20px;
 }
-.listaBotonIndex {
-    columns: 2;
-    -webkit-columns: 2s;
-    -moz-columns: 2;    
-
+.margin_top {
+    margin-top: 50px;
 }
-#botonIndex {
-    background-color: $rojo;
-    width: 120px;
-    margin: 10px;
-}
-#botonIndex a {
-    color: white;
-    text-decoration: none;
-}
-#botonIndex:hover {
-    background-color: white;
-
-} 
-#botonIndex a:hover {
-    color:$rojo;
+.centro {
+    display: block;
+    margin: auto;
 }
 
-// desayuno almmuerzo y merienda
+// comidas
 .titulo {
     margin-top: 70px;
     font-family: $cursiva;
@@ -53,50 +32,4 @@ p {
 }
 ul {
     list-style: none;
-}
-
-// contacto
-.box {
-    background-color: gainsboro;
-    width: fit-content;
-    height: fit-content;
-    padding:30px;
-}
-.tituloReservas {
-    font-family: $cursiva;
-}
-.control {
-    font-family: $itemFont;
-    width: 300px;
-    margin:15px;
-    padding: 10px;
-}
-.normasCovid {
-    margin:20px;
-    text-align: center;
-    font-family: $itemFont;
-}
-.listaCovid {
-    text-transform: uppercase;
-    font-family: $loraFont;
-}
-.listaCovid li {
-    padding: 10px;
-}
-.checkbox {
-    margin:20px;
-    text-transform: uppercase;
-    font-family: $loraFont;
-}
-.boton {
-    width: 300px;
-    margin:15px;
-    padding: 10px;
-}
-.boton:hover {
-    background-color: $rojo;
-    color:white;
-    border: $rojo;
-    width: 350px;
-    height: 50px;
 }
