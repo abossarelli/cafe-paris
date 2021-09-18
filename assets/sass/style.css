@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -125,6 +129,15 @@ ul {
   height: 50px;
 }
 
+.margin {
+  margin: 20px;
+}
+
+.centro {
+  display: block;
+  margin: auto;
+}
+
 .boxA {
   background-color: gainsboro;
   width: 500px;
@@ -141,9 +154,40 @@ ul {
   margin-top: 40px;
 }
 
-#chefImg {
+.boxB {
+  background-color: gainsboro;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+
+.chef__img {
   display: block;
   margin: auto;
+}
+
+.chef__name {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: #141212;
+}
+
+.chef__name--text {
+  font-family: "Cardo", serif;
+  font-size: 20px;
+  width: 320px;
+  height: 200px;
+}
+
+#galeria:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 @media only screen and (min-width: 1024px) {
@@ -263,12 +307,5 @@ ul {
     -ms-grid-column: 1;
     grid-area: img9;
   }
-}
-
-#galeria:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 /*# sourceMappingURL=style.css.map */
