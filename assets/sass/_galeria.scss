@@ -2,6 +2,7 @@
 #galeria:hover {
     transform: scale(1.2,1.2);
     box-shadow: $box-shadow;
+    border: 2px dashed #D50000;
 }
 @media only screen and (min-width: 1024px) {
     .grid {

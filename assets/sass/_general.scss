@@ -13,23 +13,13 @@ body {
     display: block;
     margin: auto;
 }
-
-// comidas
-.titulo {
-    margin-top: 70px;
-    font-family: $cursiva;
+footer p {
+    font-size: 15px;
 }
-.tituloComidas {
-    margin:15px;
-    font-family: $loraFont;
-    text-transform: uppercase;
+footer a {
+    color:$negro;
 }
-h4 {
-    font-family: $itemFont;
-}
-p {
-    font-family: $loraFont;
-}
-ul {
-    list-style: none;
+footer a:hover {
+    color: $rojo;
+    text-decoration: none;
 }
