@@ -13,6 +13,7 @@ $gris:gainsboro;
     width: 500px;
     height: 400px;
     padding:25px;
+    margin-top:25px;
 }
 .boxA:hover {
     transform: scale(1.2,1.2);
@@ -25,6 +26,7 @@ $gris:gainsboro;
     width: fit-content;
     height: fit-content;
     padding:10px;
+    margin-top:20px;
 }
 .chef {
     &__img {
