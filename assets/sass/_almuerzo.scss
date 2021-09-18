@@ -4,6 +4,9 @@ $gris:gainsboro;
 .margin {
     margin:20px;
 }
+.margin_top {
+    margin-top: 50px;
+}
 .centro {
     display: block;
     margin: auto;
@@ -19,7 +22,7 @@ $gris:gainsboro;
     transform: scale(1.2,1.2);
     box-shadow: $box-shadow;
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .boxB {
     background-color: $gris;
